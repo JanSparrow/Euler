@@ -52,7 +52,6 @@ candidates = [2, 3]
 maxs = 0
 maxp = 0
 for b in prime :
-    print(b)
     for a in prime:
         seq = seque(a - b - 1, b, candidates)
         if (seq > maxs) :
